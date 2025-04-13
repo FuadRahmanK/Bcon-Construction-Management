@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labour View</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Set height to 100vh to prevent scrolling */
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        header {
+            padding: 1rem;
+            position: relative;
+            z-index: 2;
+            background: rgba(0, 0, 0, 0.5); /* Made header semi-transparent instead of fully transparent */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #f4a460;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0; /* Removed padding to fill the screen */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%; /* Set height to 100% to fill the screen */
+            border: 0; /* Removed border */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            margin-top: auto;
+            position: relative; /* Ensure footer stays at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Labour Dashboard</div>
+            <ul class="nav-links">
+                <li><a href="labour_home.html">Home</a></li>
+                <li><a href="index.html" style="color: red; font-weight: bold;">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62890.95410932968!2d76.964061!3d9.8768035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07ba56d1782871%3A0xa5318c1548bb2373!2sCheruthoni%2C%20Kerala%20685602!5e0!3m2!1sen!2sin!4v1744241994165!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 BuildRight Construction. All rights reserved.</p>
+    </footer>
+</body>
+</html>

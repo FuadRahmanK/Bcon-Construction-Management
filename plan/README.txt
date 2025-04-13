@@ -1,0 +1,1 @@
+This directory will hold the uploaded images of the plan.

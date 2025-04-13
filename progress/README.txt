@@ -1,0 +1,1 @@
+This directory will hold the images of the progress uploaded.
